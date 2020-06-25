@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h1 id="angular-momentum">Angular momentum</h1>
+<h2 id="the-general-theory-of-angular-momentum">The general theory of angular momentum</h2>
+<p>The starting point is <br /><span class="math display">[<em>J</em><sub><em>i</em></sub>, <em>J</em><sub><em>j</em></sub>]=<em>i</em>ℏ<em>ϵ</em><sub><em>i</em><em>j</em><em>k</em></sub><em>J</em><sub><em>k</em></sub></span><br /></p>
+<p>There are two valid views: (1) we simply take it as true, and move on to derive other relations. (2) The generator of rotation is an observable called angular momentum, but this relies on classical mechanics and at best an analog. Whichever way we choose, this is a good starting point.</p>
+<p>To derive the eigenvalues of <span class="math inline"><em>J</em><sub><em>i</em></sub></span>, we define <br /><span class="math display"><em>J</em><sup>2</sup> = <em>J</em><sub><em>x</em></sub><sup>2</sup> + <em>J</em><sub><em>y</em></sub><sup>2</sup> + <em>J</em><sub><em>z</em></sub><sup>2</sup></span><br /></p>
+<p><br /><span class="math display"><em>J</em><sub>±</sub> = <em>J</em><sub><em>x</em></sub> ± <em>i</em><em>J</em><sub><em>y</em></sub></span><br /></p>
+<p>See that <span class="math inline"><em>J</em><sub>+</sub><sup>†</sup> = <em>J</em><sub>−</sub></span>, and <span class="math inline"><em>J</em><sub>−</sub><sup>†</sup> = <em>J</em><sub>+</sub></span>.</p>
+<p>To make progress we need to guess a few relations: we must understand the meaning of <span class="math inline"><em>J</em><sub>±</sub>|<em>j</em><em>m</em>⟩</span>.</p>
+<p>Find the <span class="math inline"><em>J</em><sub>−</sub><em>J</em><sub>+</sub></span> and <span class="math inline"><em>J</em><sub>−</sub><em>J</em><sub>+</sub></span> in terms of <span class="math inline"><em>J</em><sup>2</sup></span> and <span class="math inline"><em>L</em><sub><em>z</em></sub></span>, which is quite easy if we use the basic definitions. This has to do with the norm of <span class="math inline"><em>J</em><sub>±</sub>|<em>j</em><em>m</em>⟩</span>.</p>
+<p>With the basic definitions, we derive <br /><span class="math display">$$\begin{aligned}
+{{[{J_{z}} , {J_{\pm}} ]}} &amp;=&amp; \pm\hbar J_{\pm} \nonumber\\
+{{[{J_{+}} , {J_{-}} ]}} &amp;=&amp; 2 \hbar J_{z} \nonumber \\
+{{[{J_+} , {J_-} ]_+}} &amp; = &amp; J_+ J_- + J_- J_+  \nonumber\\
+  &amp;=&amp;  2(J^2 - J_z^2)\nonumber\end{aligned}$$</span><br /></p>
+<p>We have three operators <span class="math inline"><em>J</em><sub><em>x</em></sub></span>, <span class="math inline"><em>J</em><sub><em>y</em></sub></span>, and <span class="math inline"><em>J</em><sub><em>z</em></sub></span>. There are connected by the commutation relations. So can we see that there are essentially two ‘independent’ variables. These are <span class="math inline"><em>J</em><sup>2</sup></span> and <span class="math inline"><em>J</em><sub><em>z</em></sub></span>. To proceed with the algebra, we retain <span class="math inline"><em>J</em><sub><em>z</em></sub></span> and use <span class="math inline"><em>J</em><sub>−</sub></span> and <span class="math inline"><em>J</em><sub>+</sub></span>.</p>
+<p>We want to show that the possible values of <span class="math inline"><em>j</em></span> are <br /><span class="math display">$$j = \frac{n}{2}, \ \ \ n \ge 0$$</span><br /></p>
+<p>To achieve this, we need <br /><span class="math display">[<em>J</em><sup>2</sup>, <strong>J</strong>]=0</span><br /> The vector <span class="math inline"><strong>J</strong></span> means we have three relations <br /><span class="math display">[<em>J</em><sup>2</sup>, <em>J</em><sub><em>x</em></sub>]=[<em>J</em><sup>2</sup>, <em>J</em><sub><em>y</em></sub>]=[<em>J</em><sup>2</sup>, <em>J</em><sub><em>z</em></sub>]=0</span><br /></p>
+<p>Assume the common eigenket of <span class="math inline"><em>J</em><sup>2</sup></span> and <span class="math inline"><em>J</em><sub><em>z</em></sub></span> is <span class="math inline">|<em>β</em>, <em>m</em>⟩</span> such that <br /><span class="math display">$$\begin{aligned}
+J^2 | \beta,m \rangle &amp;=&amp; \hbar^2 \beta | \beta,m \rangle \nonumber \\
+J_z | \beta,m \rangle &amp;=&amp; \hbar m | \beta,m \rangle \nonumber \\\end{aligned}$$</span><br /></p>
+<p>Use (see Sakurai’s QM, p. 14) <br /><span class="math display">⟨<em>ϕ</em>|<em>ϕ</em>⟩≥0</span><br /> deduce <br /><span class="math display"><em>β</em> ≥ <em>m</em><sup>2</sup></span><br /></p>
+<p>Next consider <br /><span class="math display"><em>J</em><sub>+</sub>|<em>β</em>, <em>m</em>⟩</span><br /> where <br /><span class="math display"><em>J</em><sub><em>z</em></sub><em>J</em><sub>+</sub>|<em>β</em>, <em>m</em>⟩=ℏ(<em>m</em> + 1)<em>J</em><sub>+</sub>|<em>β</em>, <em>m</em>⟩</span><br /></p>
+<p>For a fixed <span class="math inline"><em>β</em></span>, there is a maximum <span class="math inline"><em>m</em></span>, denoted by <span class="math inline"><em>j</em></span> such that <br /><span class="math display"><em>J</em><sub>+</sub>|<em>β</em>, <em>j</em>⟩=0</span><br /></p>
+<p>Next consider <br /><span class="math display"><em>J</em><sub>−</sub><em>J</em><sub>+</sub> = <em>J</em><sup>2</sup> − <em>J</em><sub><em>z</em></sub><sup>2</sup> − ℏ<em>J</em><sub><em>z</em></sub></span><br /> and <br /><span class="math display"><em>J</em><sub>−</sub><em>J</em><sub>+</sub>|<em>β</em>, <em>j</em>⟩=ℏ<sup>2</sup>(<em>β</em> − <em>j</em><sup>2</sup> − <em>j</em>)|<em>β</em>, <em>j</em>⟩=0</span><br /> to give <br /><span class="math display"><em>β</em> = <em>j</em>(<em>j</em> + 1)</span><br /></p>
+<p>Similarly, we can show that <br /><span class="math display"><em>J</em><sub><em>z</em></sub><em>J</em><sub>−</sub>|<em>β</em>, <em>m</em>⟩=ℏ(<em>m</em> − 1)<em>J</em><sub>−</sub>|<em>β</em>, <em>m</em>⟩</span><br /> showing that <span class="math inline"><em>J</em><sub>−</sub>|<em>β</em>, <em>m</em>⟩</span> is either an eigenstate of <span class="math inline"><em>J</em><sub><em>z</em></sub></span> with eigenvalue <span class="math inline">ℏ(<em>m</em> − 1)</span> or a zero.</p>
+<p>According to Balentine, <span class="math inline"><em>β</em> = <em>j</em>(<em>j</em> + 1)=<em>k</em>(<em>k</em> − 1)</span>. We can solve <span class="math inline"><em>k</em></span> in terms of <span class="math inline"><em>j</em></span>, i.e., <span class="math inline"><em>j</em><sup>2</sup> − <em>k</em><sup>2</sup> + <em>j</em> + <em>k</em> = (<em>j</em> − <em>k</em> + 1))(<em>j</em> + <em>k</em>)=0</span>, implying that either <span class="math inline"><em>k</em> = −<em>j</em></span> or <span class="math inline"><em>k</em> = <em>j</em> + 1</span>. Since <span class="math inline"><em>j</em> ≥ <em>k</em></span>, we must have <span class="math inline"><em>k</em> = −<em>j</em></span> as the valid solutition. We also have <span class="math inline"><em>β</em> = <em>j</em>(<em>j</em> + 1)≥<em>m</em><sup>2</sup></span>, so <span class="math inline"><em>j</em> ≤ 0</span> (rather than <span class="math inline"><em>j</em> ≤ −1</span>). These are fine points that all textbooks do not discuss.</p>
+<p>The lower limit of <span class="math inline"><em>m</em></span> is set to be equal to <span class="math inline"><em>k</em></span>. So we have <br /><span class="math display"><em>J</em><sub>−</sub>|<em>β</em>, <em>k</em>⟩=0</span><br /></p>
+<p>Since <br /><span class="math display">−<em>j</em> ≤ <em>m</em> ≤ <em>j</em></span><br /> in steps of one, we must have <br /><span class="math display"><em>j</em> − ( − <em>j</em>)+1 = <em>n</em></span><br /> where <span class="math inline"><em>n</em></span> is an integer <span class="math inline">≥1</span>. So the allowed values of <span class="math inline"><em>j</em></span> are <span class="math inline">(<em>n</em> − 1)/2</span>, which is multiple of <span class="math inline">1/2</span>. When <span class="math inline"><em>n</em> = 1</span>, <span class="math inline"><em>j</em> = 0</span>, when <span class="math inline"><em>n</em> = 2</span>, <span class="math inline"><em>j</em> = 1/2</span>, etc.</p>
+<p>A practical formula in AM: <br /><span class="math display">$$J_{\pm} { {| jm \rangle }} = \hbar \sqrt{ j(j+1) - m(m\pm1)    } { {| jm\pm 1 \rangle }}$$</span><br /></p>
+<p>Note that <br /><span class="math display">$$\begin{aligned}
+j(j+1) - m(m\pm 1) &amp;=&amp; (j-m)(j+m) + (j \mp m)
+\\ &amp;=&amp;  (j\mp m)(j\pm m + 1)\end{aligned}$$</span><br /></p>
+</body>
+</html>
